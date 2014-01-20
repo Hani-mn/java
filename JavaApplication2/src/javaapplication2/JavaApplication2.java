@@ -17,6 +17,14 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int x=calc(2, 3);
+        System.out.println(x);
+    }
+    public static int calc(int a,int b)
+    {
+        int sum= a+b;
+        return sum;
+        
     }
     
 }
